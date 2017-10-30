@@ -51,3 +51,5 @@ The small scripts are modified from [OO_latex](https://github.com/clausTue/OO_la
 ## Update
 * Modify these 2 scripts for OmniOutliner 5.
 * Modify the python script to return a defalt result when LaTex string not in the note of rows.
+
+![](./default_result.png)

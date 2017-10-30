@@ -2,7 +2,7 @@
 
 ## Introduction
 
-OmniOutliner always used for note taking, for some area, latex equations play an important role. However, OmniOutliner does not support latex equations which may cause inconvenience to the user. Here a python script and an applescript are generated to provide a simple solution for this problem. 
+OmniOutliner always used for note taking, for some area, latex equations play an important role. However, OmniOutliner does not support latex equations which may cause inconvenience to the user. Here a python script and an applescript are generated to provide a simple solution for this problem.
 
 Users can write their latex equations in the note and generate a .pdf attachment for the selected row.
 
@@ -14,9 +14,9 @@ The script can:
 
 ## How to use
 
-* put the `latex_in_OO.scpt` into `~/Library/Application Scripts/com.omnigroup.OmniOutliner4/`(if not exists create the folder)
+* put the `latex_in_OO.scpt` into `~/Library/Application\ Scripts/com.omnigroup.OmniOutliner5`(if not exists create the folder)
 
-* put the `create_latex_pdf.py` into `/Documents/OmniOutliner4` (if not exists create a folder)
+* put the `create_latex_pdf.py` into `~/Documents/OmniOutliner5` (if not exists create a folder)
 
 * then you can access the script from the script icon in the menubar (can be set in View->Customize Toolbar)![icon_in_menu_bar](icon_in_menu_bar.png)
 
@@ -24,9 +24,9 @@ The script can:
 
 ## Requirement
 
-MacTeX 2015
+MacTeX 2017
 
-python 
+python
 
 [pdfcrop](http://pdfcrop.sourceforge.net/)
 
@@ -36,13 +36,17 @@ Result:
 
  ![test_result](test_result.png)
 
-Environment: 
+Environment:
 
-* OS: OSX EI Capitan(10.11.4)
+* OS: macOS Sierra 10.12.6
 
 
-* Software: OmniOutliner v4.5, MacTeX 2015, python 2.7.10, pdfcrop v0.4b, etc.
+* Software: OmniOutliner v5, MacTeX 2017, python 2.7.13, pdfcrop v0.4b, etc.
 
 ##Reference
 
 The small scripts are modified from [OO_latex](https://github.com/clausTue/OO_latex) since Omnigroup change the path to store applescript and the upgrade of MacTeX.
+
+
+## Update
+Modify these 2 script for OmniOutliner 5.

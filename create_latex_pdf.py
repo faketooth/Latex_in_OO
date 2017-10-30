@@ -54,6 +54,8 @@ def main():
     # # this is the latex string that is being passed
     str_latex_note = sys.argv[1]
     print "%s" %  str_latex_note
+    if str_latex_note == '':
+        str_latex_note = " \hspace{0.2cm} ".join("LaTex string should be note of the selected row.".split())
  
  
      # # this is a minimal latex template into which the string is inserted

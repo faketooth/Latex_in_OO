@@ -34,7 +34,7 @@ python
 
 Result:
 
- ![test_result](test_result.png)
+ ![](test_result.png)
 
 Environment:
 
@@ -43,10 +43,11 @@ Environment:
 
 * Software: OmniOutliner v5, MacTeX 2017, python 2.7.13, pdfcrop v0.4b, etc.
 
-##Reference
+## Reference
 
 The small scripts are modified from [OO_latex](https://github.com/clausTue/OO_latex) since Omnigroup change the path to store applescript and the upgrade of MacTeX.
 
 
 ## Update
-Modify these 2 script for OmniOutliner 5.
+* Modify these 2 scripts for OmniOutliner 5.
+* Modify the python script to return a defalt result when LaTex string not in the note of rows.

@@ -48,7 +48,7 @@ Environment:
 The small scripts are modified from [OO_latex](https://github.com/clausTue/OO_latex) since Omnigroup change the path to store applescript and the upgrade of MacTeX.
 
 
-## Update
+## Update@20171030
 * Modify these 2 scripts for OmniOutliner 5.
 * Modify the python script to return a defalt result when LaTex string not in the note of rows.
 
